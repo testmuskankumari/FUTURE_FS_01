@@ -1,0 +1,177 @@
+ * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 40);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 85px;
+            background-color: rgb(18, 18, 65);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: lavender;
+            font-size: 1.4rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 0.1px;
+            margin: 60px 80px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 40px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+            margin: 70px;
+        }
+
+        .me {
+            margin: 20px;
+        }
+
+        .rightSection img {
+            width: 270px;
+            height: 270px;
+            border-radius: 50%;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: white;
+        }
+
+        .SecondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .SecondSection h1 {
+            font-size: 1.6rem;
+        }
+
+        .SecondSection .box {
+            background-color: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .SecondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 150px;
+        }
+
+        .image-top {
+            width: 40px;
+            position: relative;
+            top: -40px;
+            left: -20px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-dese {
+            position: relative;
+            color: grey;
+            top: 90px;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        footer {
+            background-color: #2b2b34;
+
+        }
+
+        .footer {
+            display: flex;
+            margin: 300px 122px;
+            height: 300px;
+            justify-content: space-evenly;
+            padding-bottom: 0;
+            /* if there's excess padding */
+            margin-bottom: 0;
+        }
+
+        .footer-first {
+            margin-top: 20px;
+
+        }
+
+        .footer-first p {
+            margin-top: 15px;
+        }
+
+        .footer-second {
+            margin-top: 50px;
+        }
+        .footer-second li{
+            margin-top: 10px;
+        }
+        .footer-third {
+            margin-top: 50px;
+        }
+        .footer-third li{
+            margin-top: 10px;
+        }
+        .footer-fourth {
+            margin-top: 50px;
+        }
+        .footer-fourth li{
+            margin-top: 10px;
+        }
+        .footer ul {
+            margin: 20px;
+            list-style: none;
+        }
+        .footer a{
+            text-decoration: none;
+        }
